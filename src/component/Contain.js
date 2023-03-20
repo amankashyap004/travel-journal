@@ -11,7 +11,7 @@ export default function Header(props) {
                <section className="upper-contain">
                   <div className="location">
                      <div className="location-contain">
-                        <i class="fa-solid fa-location-dot location-icon"></i>
+                        <i className="fa-solid fa-location-dot location-icon"></i>
                         <h4 className="location-name">{props.location}</h4>
                      </div>
                      <a href={props.googleMapsUrl} className="location-link">
